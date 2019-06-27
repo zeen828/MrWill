@@ -2,7 +2,7 @@
 
 @section('html_lang', 'zh-Hant-TW')
 
-@section('head_title', '標題')
+@section('head_title', '阿鴻師撲克牌魔術破解')
 
 @section('head_charset', 'UTF-8')
 
