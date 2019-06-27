@@ -15,4 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/games/magic/playing/guess', 'Games\Magic\PlayingController@guess');
+
+Route::namespace('Games')->name('games.')->group(function () {
+    Route::namespace('Magic')->name('magic.')->group(function () {
+        Route::get('games/magic/playing/guess', 'PlayingController@guess')->name('guess');
+    });
+});
