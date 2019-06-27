@@ -22,16 +22,16 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-3">
-					<input type="radio" name="start_color" value="0">&#9824;黑桃<br>
+					<input type="radio" name="start_color" value="0"><span class="text-dark">&#9824;</span>黑桃<br>
 				</div>
 				<div class="col-sm-3">
-					<input type="radio" name="start_color" value="1">&#9825;紅心<br>
+					<input type="radio" name="start_color" value="1"><span class="text-danger">&#9829;</span>紅心<br>
 				</div>
 				<div class="col-sm-3">
-					<input type="radio" name="start_color" value="2">&#9826;方塊<br>
+					<input type="radio" name="start_color" value="2"><span class="text-danger">&#9830;</span>方塊<br>
 				</div>
 				<div class="col-sm-3">
-					<input type="radio" name="start_color" value="3">&#9827;梅花<br>
+					<input type="radio" name="start_color" value="3"><span class="text-dark">&#9827;</span>梅花<br>
 				</div>
 			</div>
 			<div class="alert alert-secondary">
