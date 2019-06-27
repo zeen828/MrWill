@@ -14,7 +14,7 @@
 		<form action="#" class="text-center">
 			@if (!empty($status))
 			<div class="alert alert-success">
-				<strong>解果</strong> 原始牌{{ $start_color }}{{ $start_digital }}的第{{ $number }}張目標牌{{ $aims_color }}{{ $aims_digital }}
+				<strong>解果</strong> 原始牌[{{ $start_color }}{{ $start_digital }}]的第{{ $number }}張目標牌[{{ $aims_color }}{{ $aims_digital }}]
 			</div>
 			@endif
 			<div class="alert alert-secondary">
@@ -22,16 +22,16 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-3">
-					<input type="radio" name="start_color" value="0">黑桃<br>
+					<input type="radio" name="start_color" value="0">&#9824;黑桃<br>
 				</div>
 				<div class="col-sm-3">
-					<input type="radio" name="start_color" value="1">紅心<br>
+					<input type="radio" name="start_color" value="1">&#9825;紅心<br>
 				</div>
 				<div class="col-sm-3">
-					<input type="radio" name="start_color" value="2">方塊<br>
+					<input type="radio" name="start_color" value="2">&#9826;方塊<br>
 				</div>
 				<div class="col-sm-3">
-					<input type="radio" name="start_color" value="3">梅花<br>
+					<input type="radio" name="start_color" value="3">&#9827;梅花<br>
 				</div>
 			</div>
 			<div class="alert alert-secondary">
